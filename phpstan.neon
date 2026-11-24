@@ -4,5 +4,5 @@ parameters:
     paths:
         - ./
     excludePaths:
+        - %rootDir%/../../../tests/*
         - %rootDir%/../../../vendor/*
-    ignoreErrors:
