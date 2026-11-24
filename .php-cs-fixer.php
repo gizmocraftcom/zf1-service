@@ -10,6 +10,8 @@ $config = new PhpCsFixer\Config();
 return $config->setRiskyAllowed(true)
     ->setRules(array(
         '@PSR2'                          => true,
+        '@PHPUnit6x0Migration:risky'     => true,
+        '@PHPUnit10x0Migration:risky'    => true,
         'binary_operator_spaces'         => array('operators' => array('=' => 'align', '=>' => 'align')),
         'single_quote'                   => true,
         'array_syntax'                   => array('syntax' => 'long'),
@@ -18,6 +20,8 @@ return $config->setRiskyAllowed(true)
         'switch_case_semicolon_to_colon' => true,
         'short_scalar_cast'              => true,
     ))
+    // php-cs-fixer does not yet support PHP 8.6 syntax and aborts there; allow it until a release supports 8.6.
+    ->setUnsupportedPhpVersionAllowed(true)
     ->setUsingCache(true)
     ->setFinder($finder);
 ;
