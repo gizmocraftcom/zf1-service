@@ -1,7 +1,6 @@
 # Zend Framework 1 - Service
 
 [![Build](https://github.com/gizmocraftcom/zf1-service/workflows/Build/badge.svg?event=push)](https://github.com/gizmocraftcom/zf1-service/actions?query=workflow%3ABuild+event%3Apush)
-[![codecov](https://codecov.io/gh/gizmocraftcom/zf1-service/branch/master/graph/badge.svg)](https://codecov.io/gh/gizmocraftcom/zf1-service)
 [![Latest Stable Version](https://poser.pugx.org/gizmocraft/zendframework1-service/v/stable)](https://packagist.org/packages/gizmocraft/zendframework1-service)
 [![Total Downloads](https://poser.pugx.org/gizmocraft/zendframework1-service/downloads)](https://packagist.org/packages/gizmocraft/zendframework1-service)
 [![License](https://poser.pugx.org/gizmocraft/zendframework1-service/license)](https://packagist.org/packages/gizmocraft/zendframework1-service)
